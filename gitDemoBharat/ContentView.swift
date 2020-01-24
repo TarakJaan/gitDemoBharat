@@ -72,7 +72,7 @@ struct ContentView: View {
                            .frame(minWidth: 0, maxWidth: .infinity)
                            .padding()
                            .foregroundColor(.black)
-                           .background(LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]), startPoint: .leading, endPoint: .trailing))
+                           .background(LinearGradient(gradient: Gradient(colors: [Color.gray, Color.white]), startPoint: .leading, endPoint: .trailing))
                            .cornerRadius(40)
                            .padding(.horizontal, 20)
                            }.padding()
@@ -103,7 +103,8 @@ struct ContentView: View {
                    }
                    }
                    }.frame(minWidth: 0,maxWidth: .infinity)
-                   .background(LinearGradient(gradient: Gradient(colors: [Color.white, Color.green]), startPoint: .leading, endPoint: .trailing))
+                   .background(LinearGradient(gradient: Gradient(colors: [Color.blue
+                    , Color.gray]), startPoint: .leading, endPoint: .trailing))
                    .edgesIgnoringSafeArea(.all)
               
                    .navigationViewStyle(StackNavigationViewStyle())
